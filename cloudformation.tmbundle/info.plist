@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Cloud-formation</string>
+	<key>ordering</key>
+	<array>
+		<string>2A858AA0-3516-454A-B664-DF3A5F7D64A0</string>
+		<string>B69D3BA7-5ABB-4751-83B9-C71A359CAD96</string>
+		<string>0E8492E7-1995-40F0-8A2E-FB9E80BDD0B3</string>
+	</array>
+	<key>uuid</key>
+	<string>D56A699C-E8C0-4A48-BC69-74811C8BF023</string>
+</dict>
+</plist>
