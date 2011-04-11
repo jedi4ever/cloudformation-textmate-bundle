@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>"$1" : {
+					"Type" : "AWS::EC2::Instance",
+					"Properties" : {
+						"InstanceType" : "$2",
+						"AvailabilityZone" : "$3",
+						"SecurityGroups" : [ { 
+							"Ref" : "ActiveMQSecurityGroup"
+						 } ],
+						"ImageId" : "$4",
+						"KeyName" : { "Ref" : "KeyName" },
+						"Tags" : [ {
+							"Key" : "Name",
+							"Value" : "$1"
+						} ],
+						"UserData" : {
+						}
+}</string>
+	<key>name</key>
+	<string>instance</string>
+	<key>tabTrigger</key>
+	<string>instance</string>
+	<key>uuid</key>
+	<string>54BE5632-2394-417B-A042-4BCE8425C6C0</string>
+</dict>
+</plist>

@@ -3,15 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>blablabl	$1
+	<string>{
+	"AWSTemplateFormatVersion" : "2010-09-09",
 
-$0</string>
+	"Description" : "$1",
+
+	"Parameters" : {
+		$0
+	},
+
+	"Resources" : {
+		
+	},
+
+	"Outputs": {
+		
+	}
+}
+</string>
 	<key>name</key>
-	<string>blabl</string>
+	<string>template</string>
 	<key>scope</key>
 	<string>source.cloudformation</string>
 	<key>tabTrigger</key>
-	<string>bla</string>
+	<string>template</string>
 	<key>uuid</key>
 	<string>2A858AA0-3516-454A-B664-DF3A5F7D64A0</string>
 </dict>
